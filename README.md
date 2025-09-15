@@ -89,6 +89,3 @@ python -m http.server 8000
 ## 🏷 Créditos
 Projeto desenvolvido durante o curso **HTML e CSS** da **Alura**, dentro do **Programa ONE — Oracle Next Education**.
 
----
-
-![Preview do projeto](./assets/imagem.png)
