@@ -16,7 +16,7 @@ Trata-se de um exercício prático do curso de **HTML e CSS**, com foco especial
 ## 🎯 Principais pontos (foco em CSS e variáveis)
 O diferencial deste projeto é o **uso de variáveis CSS** (declaradas em `:root`) para centralizar cores, tipografia e espaçamentos. Isso facilita alterar a identidade visual sem ter que modificar regras dispersas pelo arquivo.
 
-### Exemplo de variáveis (coloque no início de `styles/style.css`)
+### Exemplo de variáveis 
 ```css
 :root {
   /* --- Cores --- */
@@ -66,19 +66,6 @@ body {
 
 ---
 
-## 🧩 Classes e organização (baseado nos seus HTMLs)
-As páginas já usam um padrão BEM-like que facilita componentização:
-- `.cabecalho`, `.cabecalho__menu`, `.cabecalho__menu__link`  
-- `.apresentacao`, `.apresentacao__conteudo`, `.apresentacao__conteudo__titulo`, `.apresentacao__conteudo__texto`  
-- `.apresentacao__links`, `.apresentacao__links__link`, `.titulo-destaque`  
-- `.rodape`
-
-Recomendações:
-- Estilize por escopo (ex.: `.apresentacao__conteudo { ... }`) para evitar vazamento de estilos.  
-- Use variáveis para cores, fontes e gaps — assim qualquer ajuste de identidade visual é rápido.
-
----
-
 ## ✅ Boas práticas aplicadas / recomendadas
 - Centralize variáveis no `:root` (cores, fontes, medidas).  
 - Separe regras globais (reset, tipografia) de regras de componentes.  
@@ -98,15 +85,6 @@ python -m http.server 8000
 # abra http://localhost:8000 no navegador
 ```
 
----
-
-## 📌 Observações finais
-- O README enfatiza que o foco do projeto é o **CSS** bem organizado e o uso de **variáveis**.  
-- Se quiser, posso:
-  - Gerar um `styles/style.css` completo de exemplo baseado nas classes do seu HTML; ou  
-  - Ler o seu `styles/style.css` (se enviar) e extrair as variáveis reais para documentá-las aqui.
-
----
 
 ## 🏷 Créditos
 Projeto desenvolvido durante o curso **HTML e CSS** da **Alura**, dentro do **Programa ONE — Oracle Next Education**.
